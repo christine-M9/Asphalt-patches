@@ -1,0 +1,12 @@
+Function potholePatchCounter(S):
+    Initialize patches to 0
+    Initialize N to length of S
+    Initialize index i to 0
+
+    for i < N:
+        If S[i] is 'X':
+            Increment patches by 1
+            Increment i by 2 because they will be patched together along with the current segment containing the pothole.
+        Increment i by 1
+
+    Return patches

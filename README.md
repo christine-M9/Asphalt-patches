@@ -1,4 +1,7 @@
 # Asphalt-patches Both Javascript and Python Solutions.
+by
+    
+      Christine Juma.  
 ## Description
 
 AsphaltPatches is a Python module designed to calculate the minimum number of patches required to repair potholes on a road represented by a string.
