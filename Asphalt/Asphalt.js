@@ -1,15 +1,15 @@
 function potholePatchCounter(S) {
-    const N = S.length;
-    let patches = 0;
+    let B = S.length;
+    let count = 0;
 
-    for (let i = 0; i < N; i++) {
+    for (let i = 0; i < B; i++) {
         if (S[i] === 'X') {
-            patches++;
+            count++;
             i += 2; 
         }
     }
 
-    return patches;
+    return count;
 }
 
 
@@ -18,4 +18,4 @@ console.log(potholePatchCounter("X.XXXXX.X."));
 console.log(potholePatchCounter("XX.XXX.."));      
 console.log(potholePatchCounter("XXXX"));          
 console.log(potholePatchCounter('.X...XX'));       
-
+console.log(potholePatchCounter('.....')); 

@@ -1,6 +1,6 @@
 Function potholePatchCounter(S):
     Initialize patches to 0
-    Initialize N to length of S
+    Initialize B to length of S
     Initialize index i to 0
 
     for i < N:
