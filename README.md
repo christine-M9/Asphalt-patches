@@ -38,16 +38,9 @@ Corner Test Case: '.X...XX', solution returns 2.
 ## Algorithm Efficiency
 
 The algorithm has a time complexity of O(N) .
-
 The function iterates through the entire string S once. For each character in the string, it performs a constant amount of work to check if it's a pothole and update the counter.
 
-Within the loop, all operations (comparisons, increments, and index access) are constant time operations. They do not depend on the size of the 
-
-input string and take the same amount of time regardless of the length of S and Since the function performs a fixed number of operations for each
-
-character in the input string, the time complexity is linear, represented as O(N), where N is the length of S. This means that as the length of 
-
-the input string increases, the time it takes to execute the function also increases linearly.
+Within the loop, all operations (comparisons, increments, and index access) are constant time operations. They do not depend on the size of the input string and take the same amount of time regardless of the length of S and Since the function performs a fixed number of operations for each character in the input string, the time complexity is linear, represented as O(N), where N is the length of S. This means that as the length of the input string increases, the time it takes to execute the function also increases linearly.
 
 ## License
 
