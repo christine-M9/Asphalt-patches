@@ -4,7 +4,7 @@ by
       Christine Juma.  
 ## Description
 
-AsphaltPatches is a Python module designed to calculate the minimum number of patches required to repair potholes on a road represented by a string.
+AsphaltPatches is a Python and Javascript module designed to calculate the minimum number of patches required to repair potholes on a road represented by a string.
 
 ## Road Representation
 
